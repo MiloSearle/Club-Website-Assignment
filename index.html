@@ -108,32 +108,6 @@
                 </a>
             </div>
             <br>
-            <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="slideshow-pic-1.PNG" style="width:100%">
-                    <div class="text">Activators and Volunteers</div>
-                </div>
-    
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="slideshow-pic-2.PNG" style="width:40%">
-                    <div class="text">A Team - Bowling</div>
-                </div>
-    
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="slideshow-pic-3.PNG" style="width:60%">
-                    <div class="text">Saturday Friendly Game</div>
-                </div>
-            </div>
-            <br>
-            <div style="text-align:center">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-            <br>
             <div class="boxmodel">
                 <h2>THE CLUB</h2>
                 <h3>Senior Cricket</h3>
@@ -149,27 +123,5 @@
             <p>L3 Extended Diploma in Computing</p>
             <p>420925@edu.cwa.ac.uk</p>
         </div>
-
-        <script>
-            var slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 2000); 
-            }
-        </script>
     </body>
 </html>
